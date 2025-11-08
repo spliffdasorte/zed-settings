@@ -1,7 +1,8 @@
-This repository showcases my [Zed editor](https://zed.dev) configurations and extensions.
-> [!TIP]
-> Check: [This](https://zed.dev/docs/configuring-zed#user-settings-file) too for help!
+This repository showcases my [Zed editor](https://zed.dev) configs and extensions.
 
-- `extensions.txt`: Lists installed extensions.
-- `settings.json`: Core config in general.
-- `keymap.json`: others config.
+> [!TIP]
+> Also check: [Configuring Zed](https://zed.dev/docs/configuring-zed#user-settings-file).
+
+- `extensions.txt`: List of installed extensions.
+- `settings.json`: Core configs.
+- `keymap.json`: Keymap.
