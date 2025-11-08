@@ -1,3 +1,2 @@
-~ ❯ ls ~/.local/share/zed/extensions/installed
-
-bearded-icon-theme  biome  discord-presence  html  log  python-requirements  tokyo-night
+ls ~/.local/share/zed/extensions/installed
+bearded-icon-theme  biome  discord-presence  html  live-server  log  python-requirements  tokyo-night

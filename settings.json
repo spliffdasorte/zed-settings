@@ -47,18 +47,24 @@
     "font_family": "JetBrains Mono",
     "font_size": 14
   },
-  
+
   "languages": {
-      "Python": {
-          "language_servers": [
-              "!ruff",
-              "!pylsp",
-              "!python-refactoring",
-              "pyright"
-          ]
-      }
+    "Python": {
+      "language_servers": ["!ruff", "!pylsp", "!python-refactoring", "pyright"]
+    }
   },
-  
+  "lsp": {
+    "pyright": {
+      "settings": {
+        "python.analysis": {
+          "typeCheckingMode": "off",
+          "diagnosticSeverityOverrides": {
+            "reportOptionalMemberAccess": "none"
+          }
+        }
+      }
+    }
+  },
 
   "autosave": {
     "after_delay": {
@@ -68,5 +74,11 @@
   "telemetry": {
     "diagnostics": false,
     "metrics": false
+  },
+
+  "show_completions_on_input": true,
+
+  "features": {
+    "edit_prediction_provider": "supermaven"
   }
 }
